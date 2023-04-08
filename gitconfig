@@ -1,0 +1,9 @@
+[user]
+	name = Vince
+	email = nVINCEble@users.noreply.github.com
+[push]
+	default = matching
+[alias]
+	co = checkout
+[init]
+	defaultBranch = main
