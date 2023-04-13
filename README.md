@@ -9,5 +9,4 @@ Learning about dotfiles and how to manage them at [dotfiles.eieio.xyz](https://d
 - Mission Control Preferences
 - Finder Show Path Bar
 - Trackpad (Three Finger Drag and Tap to Click disabled)
-- .zshrc
 - Git (config and SSH)
