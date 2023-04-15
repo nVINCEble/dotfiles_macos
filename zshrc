@@ -10,6 +10,14 @@ export HOMEBREW_CASK_OPTS="--no-quarantine"
 alias ls='exa'
 alias exa='exa -laFh --git'
 
+# Brew Aliases
+alias ,bi='brew install'
+alias ,bic='brew install --cask'
+alias ,bu='brew uninstall'
+alias ,bs='brew search'
+alias ,bup='brew update && brew upgrade && brew cleanup'
+alias ,bl='brew list -l'
+
 # Customize Prompt(s)
 PROMPT='
 %1~ %L %# '
