@@ -16,6 +16,8 @@ brew "imagemagick"
 brew "nvm"
 # Safe, concurrent, practical language
 brew "rust"
+# Command-line interface for https://speedtest.net bandwidth tests
+brew "speedtest-cli"
 # Simplified and community-driven man pages
 brew "tldr"
 # Display directories as trees (with optional color/HTML output)

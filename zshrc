@@ -17,6 +17,7 @@ alias ,bu='brew uninstall'
 alias ,bs='brew search'
 alias ,bup='brew update && brew upgrade && brew cleanup'
 alias ,bl='brew list -l'
+alias ,bbd='brew bundle dump --force --describe'
 
 # Customize Prompt(s)
 PROMPT='
