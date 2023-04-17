@@ -1,14 +1,13 @@
 echo 'Hello from .zshrc'
 
 # Set Variables
-# Syntax highlighting for man pages using bat
-export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 export HOMEBREW_CASK_OPTS="--no-quarantine"
 
 # Create Aliases
 # alias ls='ls -lAFh'
 alias ls='exa'
 alias exa='exa -laFh --git'
+alias man='batman'
 
 # Brew Aliases
 alias ,bi='brew install'
