@@ -10,3 +10,4 @@ Learning about dotfiles and how to manage them at [dotfiles.eieio.xyz](https://d
 - Finder Show Path Bar
 - Trackpad (Three Finger Drag and Tap to Click disabled)
 - Git (config and SSH)
+- Alfred (Turn off spotlight and use alfred instead)
