@@ -1,3 +1,4 @@
+tap "1password/tap"
 tap "homebrew/bundle"
 tap "romkatv/powerlevel10k"
 # Clone of cat(1) with syntax highlighting and Git integration
@@ -30,6 +31,8 @@ brew "tldr"
 brew "tree"
 # A Zsh Theme
 brew "romkatv/powerlevel10k/powerlevel10k"
+# Command-line helper for the 1Password password manager
+cask "1password-cli"
 # Application launcher and productivity software
 cask "alfred"
 # Client for the Dropbox cloud storage service
