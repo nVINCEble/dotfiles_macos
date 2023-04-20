@@ -15,6 +15,8 @@ brew "git"
 brew "httpie"
 # Tools and libraries to manipulate images in many formats
 brew "imagemagick"
+# Pager program similar to more
+brew "less"
 # Mac App Store command-line interface
 brew "mas"
 # Manage multiple Node.js versions
