@@ -1,6 +1,6 @@
 # dotfiles_macos
 
-Learning about dotfiles and how to manage them at [dotfiles.eieio.xyz](https://dotfiles.eieio.xyz/).
+I'm learning a ton about [dotfiles, command line use, Homebrew, zsh, git, macOS and more with the course ***Dotfiles from Start to Finish-ish***](http://dotfiles.eieio.xyz/) by [@EIEIOxyz](https://twitter.com/EIEIOxyz/), and you can too!
 
 ## TODO
 - Terminal Preferences
@@ -11,3 +11,4 @@ Learning about dotfiles and how to manage them at [dotfiles.eieio.xyz](https://d
 - Trackpad (Three Finger Drag and Tap to Click disabled)
 - Git (config and SSH)
 - Alfred (Turn off spotlight and use alfred instead)
+- Share this repo with a million people.
