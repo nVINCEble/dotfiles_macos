@@ -8,6 +8,7 @@ export HOMEBREW_CASK_OPTS="--no-quarantine"
 alias ls='exa'
 alias exa='exa -laFh --git'
 alias man='batman'
+alias trail='<<<${(F)path}'
 
 # Brew Aliases
 alias ,bi='brew install'
