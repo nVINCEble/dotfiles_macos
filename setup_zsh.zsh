@@ -2,8 +2,19 @@
 
 echo "\n<<< Starting zsh setup >>>\n"
 
-echo "Enter superuser (sudo) password to edit /etc/shells"
-echo "/opt/homebrew/bin/zsh" | sudo tee -a /etc/shells
+if grep -Fxq "/opt/homebrew/bin/zsh" '/etc/shells'; then
+  echo "/opt/homebrew/bin/zsh already added to /etc/shells, skipping..."
+else
+  echo "Enter superuser (sudo) password to edit /etc/shells"
+  echo "/opt/homebrew/bin/zsh" | sudo tee -a /etc/shells >/dev/null
+fi
 
-echo "Enter user password to change shell to zsh"
+if [ "$SHELL" = '/opt/homebrew/bin/zsh' ]; then
+  echo '$SHELL is already /opt/homebrew/bin/zsh'
+else
+  echo "Enter user password to change login shell"
+  chsh -s '/opt/homebrew/bin/zsh'
+fi
+
+# Would rather use homebrew version of zsh, but it doesn't seem to work
 chsh -s /opt/homebrew/bin/zsh
