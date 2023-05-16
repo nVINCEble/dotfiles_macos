@@ -17,4 +17,9 @@ else
 fi
 
 # Would rather use homebrew version of zsh, but it doesn't seem to work
-chsh -s /opt/homebrew/bin/zsh
+if sh --version | grep -q zsh; then
+  echo '/private/var/select/sh already linked to /bin/zsh'
+else
+  echo "Enter superuser (sudo) password to symlink sh to zsh"
+  sudo ln -sfv /bin/zsh /private/var/select/sh
+fi
