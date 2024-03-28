@@ -6,7 +6,7 @@ brew "bat"
 # Bash scripts that integrate bat with various command-line tools
 brew "bat-extras"
 # Modern replacement for 'ls'
-brew "exa"
+brew "eza"
 # Simple, fast and user-friendly alternative to find
 brew "fd"
 # Distributed revision control system

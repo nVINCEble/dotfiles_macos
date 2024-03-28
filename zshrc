@@ -5,8 +5,8 @@ export HOMEBREW_CASK_OPTS="--no-quarantine"
 export NULLCMD=bat
 
 # Create Aliases
-alias ls='exa -laFh --git'
-alias exa='exa -laFh --git'
+alias ls='eza -alh --git --classify=auto'
+alias eza='eza -alh --git --classify=auto'
 alias man='batman'
 alias trail='bat <<<${(F)path}'
 
