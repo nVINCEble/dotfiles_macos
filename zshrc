@@ -35,3 +35,5 @@ function mkcd() {
 }
 
 # Use ZSH Plugins
+
+export PATH=$PATH:/Users/vincemagcase/.local/bin
